@@ -7,9 +7,18 @@
 .idea/
 
 # for the macbook
-# misc
 .DS_Store
 
+# build outputs and dependencies
+build/
+bin/
+out/
+target/
 
+# logs and temporary files
+*.log
+*.tmp
 
-# backend
+# package-lock or pip lock files (optional, based on your tools)
+package-lock.json
+yarn.lock
