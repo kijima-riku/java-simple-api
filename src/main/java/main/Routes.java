@@ -9,10 +9,10 @@ import java.net.InetSocketAddress;
 
 public class Routes {
 
-    public static void main (String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         //HTTPサーバー
-        HttpServer server = HttpServer.create(new InetSocketAddress("localhost",8080), 0);
-        
+        HttpServer server = HttpServer.create(new InetSocketAddress("localhost", 8080), 0);
+
         UserController userController = new UserController();
         UserLogController userLogController = new UserLogController();
 
