@@ -14,13 +14,13 @@ public class UserDao {
         users.put("1", new UserModel("1", "John Doe", "john.doe@example.com"));
         users.put("2", new UserModel("2", "Jane Smith", "jane.smith@example.com"));
         users.put("3", new UserModel("3", "Bob Johnson", "bob.johnson@example.com"));
-    }    
+    }
 
     public List<UserModel> findAllUsers() {
         return new ArrayList<>(users.values());
     }
 
-    public UserModel findUserById (String id) {
-        return  users.get(id);
+    public UserModel findUserById(String id) {
+        return users.get(id);
     }
 }
